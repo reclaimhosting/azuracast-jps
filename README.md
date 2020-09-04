@@ -12,7 +12,7 @@ You can find Azuracast by clicking Marketplace and navigating to the Education c
 
 Installing is as easy as setting an environment name and region for the install. SSL will be provisioned automatically for the environment and your install will be up and running after several minutes. The installer dialog will provide and administrative URL and login credentials once setup is complete.
 
-![Screen Shot 2020-09-04 at 7.48.45 PM|690x388, 75%](upload://sjozPVxs74xG729JI7BT3csrEeT.jpeg) 
+![Screen Shot 2020-09-04 at 7.48.45 PM|690x388, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/c/c66e2b9bbee1aaa46ba225d6508e78aca3d030e3_2_517x291.jpeg) 
 
 ![Screen Shot 2020-09-04 at 7.48.52 PM|690x282, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/1/1b247ff52393dfa46b39bf792d0c2f98708ed805_2_517x211.png) 
 
