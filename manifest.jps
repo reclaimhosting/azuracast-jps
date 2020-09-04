@@ -20,7 +20,7 @@ nodes:
   nodeGroup: cp
   cloudlets: 14
   extip: false
-  displayName: Azuracast (Web Radio)
+  displayName: Azuracast
 
 onInstall: setup
 
