@@ -6,7 +6,7 @@ AzuraCast is a self-hosted, all-in-one web radio management suite. Using its eas
 
 ## Installation Instructions
 You can find Azuracast by clicking Marketplace and navigating to the Education category or searching by name.
-![Screen Shot 2020-07-12 at 9.13.45 AM|480x144](https://community.reclaimhosting.com/uploads/default/optimized/2X/3/3ecc9be22c4bc2775368b5e8ae551aaaf3d960c5_2_517x240.png) 
+![Screen Shot 2020-07-12 at 9.13.45 AM|480x144](https://community.reclaimhosting.com/uploads/default/original/2X/5/563d14d24d6dae4e3797f8895cdb80fa958a6474.png) 
 
 ![Screen Shot 2020-09-04 at 8.16.13 PM|690x320, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/3/3ecc9be22c4bc2775368b5e8ae551aaaf3d960c5_2_517x240.png) 
 
