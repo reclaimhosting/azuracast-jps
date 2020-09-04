@@ -2,7 +2,7 @@ type: install
 id: azuracast
 name: Azuracast
 homepage: https://www.azuracast.com/
-baseUrl: https://raw.githubusercontent.com/reclaimhosting/azuracast/master
+baseUrl: https://raw.githubusercontent.com/reclaimhosting/azuracast-jps/master
 logo: images/azuracast_logo.png
 
 description: 
