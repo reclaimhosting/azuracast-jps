@@ -2,18 +2,15 @@ type: install
 id: azuracast
 name: Azuracast
 homepage: https://www.azuracast.com/
-baseUrl: https://raw.githubusercontent.com/reclaimhosting/rstudio-jps/master
-logo: images/azuracast-logo.png
+baseUrl: https://raw.githubusercontent.com/reclaimhosting/azuracast/master
+logo: images/azuracast_logo.png
 
 description: 
   text: AzuraCast is a self-hosted, all-in-one web radio management suite. Using its easy installer and powerful but intuitive web interface, you can start up a fully working web radio station in a few quick minutes.
 categories:
 - apps/popular
-- apps/dev-and-admin-tools
-- apps/e-learning
-
-globals:
-  password: ${fn.password}
+- apps/collaboration
+- apps/education
 
 nodes:
   nodeType: dockerengine
@@ -30,6 +27,7 @@ actions:
       mkdir -p /var/azuracast
       cd /var/azuracast
       curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker.sh > docker.sh
+      curl -fsSL https://raw.githubusercontent.com/reclaimhosting/azuracast-jps/master/.env > .env
       chmod a+x docker.sh
       ./docker.sh install
       #Checking of container is up and running
