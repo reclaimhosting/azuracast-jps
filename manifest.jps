@@ -27,9 +27,8 @@ actions:
       mkdir -p /var/azuracast
       cd /var/azuracast
       curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker.sh > docker.sh
-      curl -fsSL https://raw.githubusercontent.com/reclaimhosting/azuracast-jps/master/.env > .env
       chmod a+x docker.sh
-      ./docker.sh install
+      yes no |./docker.sh install
       #Checking of container is up and running
       until [ "`/usr/bin/docker inspect -f {{.State.Running}} azuracast_web`"=="true" ]; do
         sleep 1
