@@ -7,3 +7,6 @@ AzuraCast is a self-hosted, all-in-one web radio management suite. Using its eas
 ## Installation Instructions
 You can find Azuracast by clicking Marketplace and then Applications to show all or searching by name.
 
+The proces is as simple as clicking the icon, adding the environment domain and name and clikcing create:
+
+
