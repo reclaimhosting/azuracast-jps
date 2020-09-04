@@ -14,7 +14,7 @@ Installing is as easy as setting an environment name and region for the install.
 
 ![Screen Shot 2020-09-04 at 7.48.45 PM|690x388, 75%](upload://sjozPVxs74xG729JI7BT3csrEeT.jpeg) 
 
-![Screen Shot 2020-09-04 at 7.48.52 PM|690x282, 75%](upload://3S75Iyw1H8WALKFej5TCEm5kAap.png) 
+![Screen Shot 2020-09-04 at 7.48.52 PM|690x282, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/1/1b247ff52393dfa46b39bf792d0c2f98708ed805_2_517x211.png) 
 
 ![Screen Shot 2020-09-04 at 8.07.58 PM|690x288, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/e/e40323d5381b6cb60749c9a8e5b93f307c633335_2_517x216.png) 
 
