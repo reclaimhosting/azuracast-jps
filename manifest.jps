@@ -27,24 +27,18 @@ onInstall: setup
 actions:
   setup:
     cmd[cp]: |-
-      -mkdir -p /var/azuracast 
-      -cd /var/azuracast 
+      -mkdir -p /var/azuracast
+      -cd /var/azuracast
       -curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/master/docker.sh > docker.sh
-      -chmod a+x docker.sh 
-     
-
-      #Checking of container is up and running 
+      -chmod a+x docker.sh
+      -./docker.sh install
+      #Checking of container is up and running
       until [ "`/usr/bin/docker inspect -f {{.State.Running}} azuracast_web`"=="true" ]; do
         sleep 1
         print '.'
       done;
-
       echo OK
-
 ssl: true
 skipNodeEmails: true
-    
-success: | 
-  **Azuracast URL**: [https://${env.domain}/](https://${env.domain}/)  
-  
-©
+success: |
+  **Azuracast URL**: [https://${env.domain}/](https://${env.domain}/)
