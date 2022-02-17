@@ -41,4 +41,4 @@ skipNodeEmails: true
 success: |
   **Azuracast URL**: [https://${env.domain}/](https://${env.domain}/)
   
-  **Setup instructions**: [https://support.reclaimhosting.com/hc/en-us/articles/4404920421527](https://support.reclaimhosting.com/hc/en-us/articles/4404920421527)
+  **Setup instructions**: [https://support.reclaimhosting.com/hc/en-us/articles/4404920421527](https://support.reclaimhosting.com/hc/en-us/articles/4404920421527#custom-domain-and-ssl-0-1)
