@@ -24,6 +24,8 @@ Once the install is complete your copy of Azuracast is online and available at t
 
 You can create your admin account with a username and password you enter, and in order to learn more about customizing Azuracast you can find more about both [system administration](https://www.azuracast.com/administration/) and [station management](https://www.azuracast.com/station-management/) in the documentation on their [website](https://www.azuracast.com/).
 
+## Configuration for use with Reclaim Cloud's Shared Load Balancer
+
 If you are using the shared load balancer, make sure to enable the **Use Web Proxy for radio** option when setting up your station:
 
 ![](images/web-proxy.png)
@@ -32,15 +34,14 @@ You will also likely need to restart the broadcasting service for that change to
 
 ![](images/restart-broadcasting.png)
 
-
-**Mapped Domain and SSL**
+## Mapped Domain and SSL
 If you would like a custom domain for your radio station, that is possible by adding a public IP address to your container:
 
 ![Screen Shot 2020-09-04 at 8.20.28 PM|690x168](https://community.reclaimhosting.com/uploads/default/optimized/2X/a/a4a0a837db4773f1f73812991ffe710e5a7b2df7_2_690x168.png) 
 
 Once you have the IP address, you will need to point an A record for the domain being mapped to that IP address.
 
-After that, you will need to access the SSL terminal and run the following commands to enable the SSL certificate for the newly mapped domain:
+After that, you will need to access the SSH terminal and run the following commands to enable the SSL certificate for the newly mapped domain:
 ```
 cd /var/azuracast
 ./docker.sh update-self
