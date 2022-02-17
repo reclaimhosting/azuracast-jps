@@ -11,7 +11,7 @@ You can find Azuracast by clicking Marketplace and navigating to the Education c
 
 ![Screen Shot 2020-09-04 at 8.16.13 PM|690x320, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/3/3ecc9be22c4bc2775368b5e8ae551aaaf3d960c5_2_517x240.png) 
 
-Installing is as easy as setting an environment name and region for the install. SSL will be provisioned automatically for the environment and your install will be up and running after several minutes. The installer dialog will provide and administrative URL and login credentials once setup is complete.
+Installing is as easy as setting an environment name and region for the install. SSL will be provisioned automatically for the environment and your install will be up and running after several minutes. The installer dialog will provide an administrative URL once setup is complete.
 
 ![Screen Shot 2020-09-04 at 7.48.45 PM|690x388, 75%](https://community.reclaimhosting.com/uploads/default/optimized/2X/c/c66e2b9bbee1aaa46ba225d6508e78aca3d030e3_2_517x291.jpeg) 
 
@@ -24,8 +24,17 @@ Once the install is complete your copy of Azuracast is online and available at t
 
 You can create your admin account with a username and password you enter, and in order to learn more about customizing Azuracast you can find more about both [system administration](https://www.azuracast.com/administration/) and [station management](https://www.azuracast.com/station-management/) in the documentation on their [website](https://www.azuracast.com/).
 
+If you are using the shared load balancer, make sure to enable the **Use Web Proxy for radio** option when setting up your station:
+
+![[images/web-proxy.png]]
+
+You will also likely need to restart the broadcasting service for that change to take effect. You can do that from the **Utilities** menu on the station profile page:
+
+![[images/restart-broadcasting.png]]
+
+
 **Mapped Domain and SSL**
-If you would like a custom domain for your radio station that is possible by adding a public IP address to your container:
+If you would like a custom domain for your radio station, that is possible by adding a public IP address to your container:
 
 ![Screen Shot 2020-09-04 at 8.20.28 PM|690x168](https://community.reclaimhosting.com/uploads/default/optimized/2X/a/a4a0a837db4773f1f73812991ffe710e5a7b2df7_2_690x168.png) 
 
