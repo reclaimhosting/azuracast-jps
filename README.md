@@ -26,11 +26,11 @@ You can create your admin account with a username and password you enter, and in
 
 If you are using the shared load balancer, make sure to enable the **Use Web Proxy for radio** option when setting up your station:
 
-![[https://raw.githubusercontent.com/reclaimhosting/azuracast-jps/master/images/web-proxy.png]]
+![](images/web-proxy.png)
 
 You will also likely need to restart the broadcasting service for that change to take effect. You can do that from the **Utilities** menu on the station profile page:
 
-![[https://raw.githubusercontent.com/reclaimhosting/azuracast-jps/master/images/restart-broadcasting.png]]
+![](images/restart-broadcasting.png)
 
 
 **Mapped Domain and SSL**
