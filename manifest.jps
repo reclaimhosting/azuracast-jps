@@ -31,13 +31,7 @@ actions:
         curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/main/docker.sh > docker.sh
         chmod a+x docker.sh
         ./docker.sh install-docker-compose
-        N | ./docker.sh install
-        #Checking of container is up and running
-        until [ "`/usr/bin/docker inspect -f {{.State.Running}} azuracast`"=="true" ]; do
-            sleep 1
-            print '.'
-        done;
-        echo OK
+        N | ./docker.sh install > /tmp/azuracast_install.log
 ssl: true
 skipNodeEmails: true
 success: |
